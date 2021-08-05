@@ -1,5 +1,5 @@
 {
-  "name": "angular-action-creator",
+  "name": "@aiscom-llc/angular-action-creator",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.cjs.js",
@@ -10,6 +10,9 @@
     "action",
     "angular"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Aiscom-LLC/angular-action-creator.git"
