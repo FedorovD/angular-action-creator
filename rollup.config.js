@@ -3,7 +3,7 @@ import pkg from './package.json';
 
 export default [
   {
-    input: 'src/action-creator.ts',
+    input: 'src/index.ts',
     external: Object.keys(pkg.peerDependencies || {}),
     plugins: [
       typescript({

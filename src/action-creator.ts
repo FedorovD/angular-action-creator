@@ -1,7 +1,7 @@
 import { createAction, props } from '@ngrx/store';
 import { ErrorState, ActionCreatorProps } from './interfaces';
 
-export default class ActionCreator {
+export class ActionCreator {
   private prefix: string;
   constructor(prefix: string) {
     this.prefix = `[${prefix}]`;
